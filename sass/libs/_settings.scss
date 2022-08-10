@@ -1,18 +1,16 @@
-// Font family
-$primary-font      : "Novecento Sans","Raleway", "Noto Sans" "Open Sans", sans-serif;
-$secondary-font    : arial,sans-serif;
+// Font family Variables
+$primary-font    : "Novecento Sans", "Open Sans", sans-serif;
+$secondary-font  : Arial, "Open Sans", serif;
 
 
 // Color Variables
-$accent-color      : #8f7655;
-$primary-color     : $accent-color;
-$secondary-color   : #363641;
+$accent-color    : #cc7250;
+$accent-color-2  : #f7d0c2;
+$secondary-color : #1b181b;
+$bg-color        : #151215;
+$body-color      : #aea9ad;
+$strong-color    : #fff;
 
-$strong-color      : #544531;
-$body-color        : #89837c;
-$muted-color       : #a59e95;
-$border-color: #e5e5e5;
+$border-color    : #3a353a;
 
-// Grid system
-$grid-columns      : 12 !default;
-$grid-gutter-width : 30px !default;
+$gradient        : -webkit-linear-gradient(90deg, $accent-color, $accent-color-2);

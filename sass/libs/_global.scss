@@ -2,63 +2,38 @@
  * Global Styles
  */
 
-$browser-context: 14; // Default
-html{ font-size   : #{$browser-context}px; }
 body {
-	color       : $body-color;
-	font-family : $secondary-font;
-	font-weight : 300;
+	background-color: $bg-color;
+	color: $body-color;
+	font-family: $secondary-font;
+	font-size   : 16px;
+	font-weight : 400;
 	line-height : 1.5;
 
 }
 
-h1,h2,h3,h4,h5,h6{
-	margin      : 0 0 20px;
-	font-family: $primary-font;
-	font-weight: 500;
-	text-transform: uppercase;
-	line-height: normal;
-}
-
-hr{ 
-	border: none;
-	border-bottom: 1px solid #777;
-}
-
-ul, ol {
-	margin: 0;
-	padding-left: 0;
-}
-
 a { 
 	text-decoration: none;
-	color: $accent-color;
+	color: $body-color;
+	border-bottom: 1px solid transparent;
+	transition: .3s ease;
+
+	&:hover{ color: white }
 }
 
 address { font-style: normal }
 
 p{ margin-top: 0 }
 
+.text-center{
+	text-align: center;
+}
+
 form{
-
-	input,textarea,select{
-		outline: none;
-		padding: 10px;
-		border-radius: 5px;
-		border: none;
+	input:not([type="submit"]),textarea{
+		padding: 20px 20px;
+		background: none;
+		display: block;
+		border: 2px solid #2c282c;
 	}
-	select{
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		appearance: none;
-		border: none;
-	}
-	textarea{
-		resize: vertical;
-	}
-	input[type="submit"],button, input[type="reset"]{
-		@extend .button;
-		border: none;
-	}
-
 }

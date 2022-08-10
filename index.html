@@ -5,12 +5,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 		
-		<title>James Miller</title>
-
+		<title>Dr. James Miller</title>
 		<!-- Loading third party fonts -->
-		<link href="fonts/novecento-font/novecento-font.css" rel="stylesheet" type="text/css">
 		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
-
+		<link href="fonts/novecento-font/novecento-font.css" rel="stylesheet" type="text/css">
 		<!-- Loading main css file -->
 		<link rel="stylesheet" href="style.css">
 		
@@ -22,269 +20,255 @@
 	</head>
 
 
-	<body>
-		<div class="site-content">
+	<body class="homepage header-collapse">
+
+		<div id="site-content">
+			
 			<header class="site-header">
 				<div class="container">
-					<a href="#" class="branding">
-						<img src="images/logo.png" alt="" class="logo">
-						<h1 class="site-title">James Miller</h1>
-					</a>
+					<a id="branding" href="index.html">
+						<img src="images/logo.png" alt="Company name" class="logo">
+						<div class="logo-copy">
+							<h1 class="site-title"> James Miller</h1>
+						</div>
+					</a> <!-- #branding -->
 
+					
+					<!-- Default snippet for navigation -->
 					<div class="main-navigation">
-						<button class="menu-toggle"><i class="fa fa-bars"></i> Menu</button>
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
 						<ul class="menu">
-							<li class="menu-item current-menu-item"><a href="index.html">Homepage </a></li>
-							<li class="menu-item"><a href="#">Pastors </a></li>
-							<li class="menu-item"><a href="#seremons.html"></small></a></li>
-							<li class="menu-item"><a href="#events.html">Events </a></li>
-							<li class="menu-item"><a href="#families.html">Families </a></li>
-							<li class="menu-item"><a href="#">Contact </a></li>
-						</ul>
-					</div>
+							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="#about">About</a></li>
+							<li class="menu-item"><a href="#">Vision</a></li>
+							<li class="menu-item"><a href="#">Donate</a></li>
+							<li class="menu-item"><a href="#">Contact</a></li>
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
 
 					<div class="mobile-navigation"></div>
 				</div>
-			</header> <!-- .site-header -->
-
-			<div class="hero">
-				<div class="slides">
-					<li data-bg-image="images/slide-1.jpg">
+			</header>
+			
+			<div class="hero hero-slider">
+				<ul class="slides">
+				<!--	<li data-bg-image="dummy/slider-1.jpg">
 						<div class="container">
-							<div class="slide-content">
-								<small class="slide-subtitle">James Miller</small>
-								<h2 class="slide-title">Place with a real love</h2>
-
-								<a href="#" class="button">See our families</a>
-							</div>
+							
+							<h2 class="slider-title">Dr James Miller</h2>
+							<p>Be careful for nothing; but in everything by prayer and supplication with thanksgiving let your requests be made known unto God.  It is with great please, that I agree with you in prayer, that God may bring your need(s) to pass fill out information below, and lets believe God..Phililipians 4:6</p>
+							<a href="#" class="button large">Read more</a>
 						</div>
 					</li>
-
-					<li data-bg-image="images/slide-1.jpg">
+					<li data-bg-image="dummy/slider-2.jpg">
 						<div class="container">
-							<div class="slide-content">
-								<small class="slide-subtitle">James Miller</small>
-								<h2 class="slide-title">Place with a real love</h2>
-
-								<a href="#" class="button">See our families</a>
-							</div>
+							<h2 class="slider-title">Dr James Miller</h2>
+							<p>Be careful for nothing; but in everything by prayer and supplication with thanksgiving let your requests be made known unto God.  It is with great please, that I agree with you in prayer, that God may bring your need(s) to pass fill out information below, and lets believe God..Phililipians 4:6</p>
+							<a href="#" class="button large">Read more</a>
+						</div>-->
+					</li>
+					<li data-bg-image="dummy/slider-3.jpg">
+						<div class="container">
+							<h2 class="slider-title">Dr James Miller</h2>
+							<p>Be careful for nothing; but in everything by prayer and supplication with thanksgiving let your requests be made known unto God.  It is with great please, that I agree with you in prayer, that God may bring your need(s) to pass fill out information below, and lets believe God..Phililipians 4:6</p>
+							
 						</div>
 					</li>
-				</div>
+				</ul>
 			</div>
 
 			<main class="main-content">
-				<div class="fullwidth-block">
+				<div class="fullwidth-block latest-news-section">
 					<div class="container">
-						<h2 class="section-title">Recent News</h2>
-
+						<h2 class="section-title">Devotional Quotes</h2>
 						<div class="row">
-							<div class="col-md-3 col-sm-6">
+							<div class="col-md-4">
 								<div class="news">
-									<image class="news-image" src="images/news-thumb-1.jpg"></image>
-									<h3 class="news-title"><a href="#">laboris nisi ut aliquip</a></h3>
-									<small class="date"><i class="fa fa-calendar"></i>24 mar 2014</small>
+									<div class="entry-date">
+										<div class="date">29</div>
+										<div class="monthyear">07.2022</div>
+									</div>
+									<div class="entry-detail">
+										<div class="entry-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo velit, tempora aut nesciunt. <a href="#" class="more-icon"><img src="images/arrow.png"></a></div>
+									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-6">
+							<div class="col-md-4">
 								<div class="news">
-									<image class="news-image" src="images/news-thumb-2.jpg"></image>
-									<h3 class="news-title"><a href="#">laboris nisi ut aliquip</a></h3>
-									<small class="date"><i class="fa fa-calendar"></i>24 mar 2014</small>
+									<div class="entry-date">
+										<div class="date">29</div>
+										<div class="monthyear">07.2022</div>
+									</div>
+									<div class="entry-detail">
+										<div class="entry-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quo esse vero ipsa architecto <a href="#" class="more-icon"><img src="images/arrow.png"></a></div>
+									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-6">
+							<div class="col-md-4">
 								<div class="news">
-									<image class="news-image" src="images/news-thumb-3.jpg"></image>
-									<h3 class="news-title"><a href="#">laboris nisi ut aliquip</a></h3>
-									<small class="date"><i class="fa fa-calendar"></i>24 mar 2014</small>
+									<div class="entry-date">
+										<div class="date">29</div>
+										<div class="monthyear">07.2022</div>
+									</div>
+									<div class="entry-detail">
+										<div class="entry-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, corporis,  <a href="#" class="more-icon"><img src="images/arrow.png"></a></div>
+									</div>
 								</div>
 							</div>
-							<div class="col-md-3 col-sm-6">
-								<div class="news">
-									<image class="news-image" src="images/news-thumb-4.jpg"></image>
-									<h3 class="news-title"><a href="#">laboris nisi ut aliquip</a></h3>
-									<small class="date"><i class="fa fa-calendar"></i>24 mar 2014</small>
+						</div> <!-- .row -->
+
+						
+					</div> <!-- .container -->
+				</div> <!-- .fullwidth-block.latest-news-section -->
+
+				<div class="fullwidth-block features-section">
+					<div class="container">
+						<div class="center">
+						<h2 class="section-title">our VISION</h2>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="feature">
+									<img src="images/icon-1.png" class="feature-image">
+									<h3 class="feature-title">PRAYER REQUEST</h3>
+									<p>The bible tells us in Phililipians 4:6
+										Be careful for nothing; but in everything by prayer and supplication with thanksgiving let your requests be made known unto God.  It is with great please, that I agree with you in prayer, that God may bring your need(s) to pass fill out information below, and lets believe God.
+										 </p>
+										 <div class="text-center">
+											<a href="#" class="button large">Request</a>
+										</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="feature">
+									<img src="images/icon-2.png" class="feature-image">
+									<h3 class="feature-title">MISSION</h3>
+									<p>My mission is to teach, train, and  develop, a nation, of people  despite ethnicity, race, and or religious background into understand the dynamics of prayer, that will produce effective biblical results.  </p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="feature">
+									<img src="images/icon-3.png" class="feature-image">
+									<h3 class="feature-title">VISSION</h3>
+									<p>The vision of God in me is to restore the spirit of prayer in the lives of ever believer across this nation, as well as those that may not know prayer, and the power thereof.</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="feature">
+									<img src="images/icon-4.png" class="feature-image">
+									<h3 class="feature-title">DONATIONS</h3>
+									<p>Thank You so much for your heart to give, Luke 6:38 says; give, and it shall be given unto you; good measure, pressed down, and shaken together, and running over, shall men give into your bosom.  With your generous contributions, we will be able fulfill the vision of God, that he has given unto us, as well as reach the masses for Jesus Christ</p>
+									<div class="text-center">
+										<a href="#" class="button large">Donations</a>
+									</div>
 								</div>
 							</div>
 						</div> <!-- .row -->
 					</div> <!-- .container -->
-				</div> <!-- section -->
+				</div> <!-- .fullwidth-block.features-section -->
 
-				<div class="fullwidth-block">
+			<!--	<div class="fullwidth-block team-section">
 					<div class="container">
+						<h2 class="section-title">Gallery</h2>
 						<div class="row">
-							<div class="col-md-6">
-								<h2 class="section-title">Upcoming events</h2>
-								<ul class="event-list">
-									<li>
-										<a href="#">
-											<h3 class="event-title">africa mission trip</h3>
-											<span class="event-meta">
-												<span><i class="fa fa-calendar"></i>30 mar 2014</span>
-												<span><i class="fa fa-map-marker"></i> Africa</span>
-
-											</span>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3 class="event-title">Bible school</h3>
-											<span class="event-meta">
-												<span><i class="fa fa-calendar"></i>30 mar 2014</span>
-												<span><i class="fa fa-map-marker"></i> Saint paul church</span>
-
-											</span>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3 class="event-title">praying for kids</h3>
-											<span class="event-meta">
-												<span><i class="fa fa-calendar"></i>30 mar 2014</span>
-												<span><i class="fa fa-map-marker"></i> james miller</span>
-
-											</span>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3 class="event-title">love giving</h3>
-											<span class="event-meta">
-												<span><i class="fa fa-calendar"></i>30 mar 2014</span>
-												<span><i class="fa fa-map-marker"></i> St cathedral</span>
-
-											</span>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3 class="event-title">god ont the vacation</h3>
-											<span class="event-meta">
-												<span><i class="fa fa-calendar"></i>30 mar 2014</span>
-												<span><i class="fa fa-map-marker"></i> greenie lake</span>
-
-											</span>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3 class="event-title">homeless helping</h3>
-											<span class="event-meta">
-												<span><i class="fa fa-calendar"></i>30 mar 2014</span>
-												<span><i class="fa fa-map-marker"></i> Detroit city</span>
-
-											</span>
-										</a>
-									</li>
-								</ul>
-
-								<div class="text-center">
-									<a href="#" class="button">See all events</a>
+							<div class="col-md-3">
+								<div class="team">
+									<figure class="team-image"><img src="dummy/person-1.jpg"></figure>
+									<h3 class="team-name">Sarah james</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nihil distinctio natus doloremque id tempore repellendus atque</p>
+									
 								</div>
 							</div>
-							<div class="col-md-6">
-								<h2 class="section-title">Latest seremons</h2>
-								<ul class="seremon-list">
-									<li>
-										<img src="images/small-thumb-1.jpg" alt="">
-										<div class="seremon-detail">
-											<h3 class="seremon-title"><a href="#">I believe in god with all my heart</a></h3>
-											<div class="seremon-meta">
-												<div class="pastor"><i class="fa fa-user"></i> Alan Ray</div>
-												<div class="date"><i class="fa fa-calendar"></i> 18 mar 2014</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<img src="images/small-thumb-2.jpg" alt="">
-										<div class="seremon-detail">
-											<h3 class="seremon-title"><a href="#">Trusting in jesus and god</a></h3>
-											<div class="seremon-meta">
-												<div class="pastor"><i class="fa fa-user"></i> David Clark</div>
-												<div class="date"><i class="fa fa-calendar"></i> 18 mar 2014</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<img src="images/small-thumb-3.jpg" alt="">
-										<div class="seremon-detail">
-											<h3 class="seremon-title"><a href="#">Love your kids</a></h3>
-											<div class="seremon-meta">
-												<div class="pastor"><i class="fa fa-user"></i> anthony roberts</div>
-												<div class="date"><i class="fa fa-calendar"></i> 18 mar 2014</div>
-											</div>
-										</div>
-									</li>
-								</ul>
-
-								<div class="text-center">
-									<a href="#" class="button">See all seremons</a>
+							<div class="col-md-3">
+								<div class="team">
+									<figure class="team-image"><img src="dummy/person-2.jpg"></figure>
+									<h3 class="team-name">Marta Smith</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta iste natus voluptatum eius? Vitae accusantium, deserunt maiores incidunt</p>
+									
 								</div>
 							</div>
-						</div> <!-- .row -->
-					</div> <!-- .container -->
-				</div> <!-- section -->
-			</main> <!-- .main-content -->
+							<div class="col-md-3">
+								<div class="team">
+									<figure class="team-image"><img src="dummy/person-3.jpg"></figure>
+									<h3 class="team-name">Nicole Johnson</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur aut, laboriosam iure, quisquam reiciendis voluptas.</p>
+									
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="team">
+									<figure class="team-image"><img src="dummy/person-4.jpg"></figure>
+									<h3 class="team-name">Alicia Brown</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla itaque veritatis amet unde aliquid, non tenetur doloremque</p>
+									
+								</div>
+							</div>
+						</div>  
+					</div> 
+				</div> -->
+
+				<div class="fullwidth-block information-section">
+					<div class="container">
+						<h2 class="section-title">MEET APOSTLE JAMES MILLER</h2>
+						<div class="row">
+							<div class="col-md-4">
+								<figure><img src="dummy/figure-1.png" ></figure>
+							</div>
+							<div class="col-md-4">
+								<p>Dr. James Miller, is an upcoming prophetic global voice in this 21st century, student of the Word, and gospel recording artist  He is renowned for the prayer mantle that rest upon his life, as miracles, signs, and wonders are made manifest when he flows in the element of prayer.  Dr. James Miller has traveled globally, and internationally preaching and demonstrating the Power of God, through the Gospel of Jesus Christ. Dr. James Miller has received an Honorary Doctorate Of Divinity at (CICA) International University & Seminary in Houston Texas.  He is actively building (ISOW) International School Of Wisdom, of which he is the founder.  He is noted for his strong marksmanship in integrity, character, and loyalty. </p>
+							</div>
+							<div class="col-md-4">
+								<p> He is a strong visionary, passionate about God, and the things of God, in order for the lives of people everywhere to be impacted with the presence of God. 
+								</p>
+							</div>
+						</div>
+					</div>
+				</div> <!-- .fullwidth-block.information-section -->
+			</main>
 
 			<footer class="site-footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4">
-							<div class="widget">
-								<h3 class="widget-title">Our address</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi perspiciatis magnam, ab ipsa laboriosam tempore tenetur, aliquid repellat, ex cum dicta reiciendis accusamus. Omnis repudiandae quasi mollitia, iusto odio dignissimos.</p>
-								<ul class="address">
-									<li><i class="fa fa-map-marker"></i> 329 Church St, Garland, TX 75042</li>
-									<li><i class="fa fa-phone"></i> (425) 853 442 552</li>
-									<li><i class="fa fa-envelope"></i> info@yourchurch.com</li>
-								</ul>
+						<div class="col-md-3">
+							<div class="widget contact-widget">
+								<h3 class="widget-title">Contact</h3>
+								<div class="contact-info">
+									<address>
+										<img src="images/icon-map-small.png" class="icon">
+										<p><strong>James Miller</strong> 3100 E LakeMead Boulevard Suite #8,USA </p>
+									</address>
+									<a href="mailto:contact@companyname.com" class="mail"><img src="images/icon-envelope-small.png" class="icon">oasisofprayerintl@gmail.com</a>
+									<a href="tel:(500)942042259" class="phone"><img src="images/icon-phone-small.png" class="icon">+1 (702) 861 7513</a>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-3">
 							<div class="widget">
-								<h3 class="widget-title">Topics from last meeting</h3>
-								<ul class="bullet">
-									<li><a href="#">Lorem ipsum dolor sit amet</a></li>
-									<li><a href="#">Consectetur adipisicing elit quis nostrud</a></li>
-									<li><a href="#">Eiusmod tempor incididunt ut labore et dolore magna</a></li> 
-									<li><a href="#">Ut enim ad minim veniam cillum</a></li>
-									<li><a href="#">Exercitation ullamco laboris nisi ut aliquip</a></li> 
-									<li><a href="#">Duis aute irure dolor in reprehenderit in voluptate</a></li>
-								</ul>
+								<h3 class="widget-title">Social Media</h3>
+								<p>You can reach us on our social media platforms below</p>
+								<div class="social-links">
+									<a href="https://web.facebook.com/prayerhouse22"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-paypal"></i></a>
+								<!--	<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-pinterest"></i></a>-->
+								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="widget">
-								<h3 class="widget-title">Contact form</h3>
-								<form action="#" class="contact-form">
-									<div class="row">
-										<div class="col-md-6"><input type="text" placeholder="Your name..."></div>
-										<div class="col-md-6"><input type="text" placeholder="Email..."></div>
-									</div>
-									
-									<textarea name="" placeholder="Your message..."></textarea>
-									<div class="text-right"><input type="submit" value="Send message"></div>
-									
-								</form>
+						
+<!-- .fullwidth-block.information-section -->
+						<div class="copyright">
+							<div class="container">
+							   <div class="row">
+								  <div class="col-md-12">   
+									 <p>Designed and Developed with <i class="fa fa-heart" style="font-size:24px;color:red"></i>
+										 By <a href="https://www.mikewilldoit.com/"><p class="a"><img src="images/logo1.png" alt="#"/></a></p>
+								  </div>
+							   </div>
 							</div>
-						</div>
-					</div> <!-- .row -->
-
-					<div class="copyright">
-						<div class="container">
-						   <div class="row">
-							  <div class="col-md-12">   
-								 <p>Designed and Developed with <i class="fa fa-heart" style="font-size:24px;color:red"></i>
-									 By <a href="https://www.mikewilldoit.com/"><p class="a"><img src="images/logo1.png" alt="#"/></a></p>
-							  </div>
-						   </div>
-						</div>
-					 </div>
-				</div><!-- .container -->
-			</footer> <!-- .site-footer -->
-
+						
+			</footer>
 		</div>
+		
+
 		
 
 		<script src="js/jquery-1.11.1.min.js"></script>
